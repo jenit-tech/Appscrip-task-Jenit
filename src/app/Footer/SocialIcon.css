@@ -1,0 +1,8 @@
+/* SocialIcon.css */
+.social-icon {
+    object-fit: contain;
+    width: 2rem; /* Equivalent to w-8 */
+    aspect-ratio: 1; /* Equivalent to aspect-square */
+    flex-shrink: 0; /* Equivalent to shrink-0 */
+  }
+  

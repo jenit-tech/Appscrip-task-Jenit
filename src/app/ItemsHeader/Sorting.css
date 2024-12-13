@@ -1,0 +1,25 @@
+.sorting-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 1.125rem;  /* text-lg */
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #4a4a4a;  /* stone-800 */
+  }
+  
+  .sorting-text {
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .sorting-icon {
+    object-fit: contain;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin: auto 0;
+    width: 1rem;  /* w-4 */
+    aspect-ratio: 1;
+  }
+  

@@ -1,0 +1,47 @@
+/* FiltersPanel.css */
+
+.filters-panel {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem; /* text-lg */
+    color: #4a4a4a; /* text-stone-800 */
+    max-width: 300px;
+    margin-right: 50px;
+  }
+  
+  .filters-panel-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  
+  .filters-panel-title {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  
+  .filters-panel-icon {
+    flex-shrink: 0;
+    background-color: white;
+    border: 0.917px solid #6b7280; /* border-neutral-600 */
+    height: 22px;
+    width: 22px;
+  }
+  
+  .filters-panel-content {
+    flex-grow: 1;
+    margin: auto 0;
+    width: 266px;
+  }
+  
+  .filters-panel-divider {
+    margin-top: 1.5rem; /* mt-6 */
+    width: 100%;
+    border: solid 1px #d1d5db; /* border-neutral-200 */
+    min-height: 1px;
+  }
+  

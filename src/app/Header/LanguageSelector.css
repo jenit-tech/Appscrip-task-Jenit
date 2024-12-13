@@ -1,0 +1,23 @@
+.language-selector {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-self: stretch;
+    margin: auto 0;
+  }
+  
+  .language-text {
+    display: flex;
+    justify-self: stretch;
+    margin: auto 0;
+  }
+  
+  .language-icon {
+    object-fit: contain;
+    flex-shrink: 0;
+    justify-self: stretch;
+    margin: auto 0;
+    width: 1rem;  /* Equivalent to w-4 in Tailwind */
+    aspect-ratio: 1;
+  }
+  

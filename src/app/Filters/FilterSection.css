@@ -1,0 +1,34 @@
+/* FilterSection.css */
+.filter-section-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .filter-section-header {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .filter-section-title {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .filter-section-icon {
+    object-fit: contain;
+    width: 1rem; /* w-4 */
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .filter-section-value {
+    margin-top: 0.5rem;
+  }
+  

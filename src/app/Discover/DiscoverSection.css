@@ -1,0 +1,29 @@
+/* DiscoverSection.css */
+.discover-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;  /* 2xl max-width */
+    width: 70%;  /* Make sure the container is full width */
+    height: 50vh;  /* Full height for vertical centering */
+    text-align: center;
+    margin: 0 auto;  /* Ensures it is centered in its container */
+  }
+  
+  .discover-title {
+    font-size: 3.75rem;  /* 6xl */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #4a4a4a;  /* Stone-800 */
+    margin-right: 0.125rem;  /* Responsive adjustment */
+  }
+  
+  .discover-description {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.25rem;  /* 2xl */
+    line-height: 2.5rem;  /* Leading-10 */
+    color: #4a4a4a;  /* Stone-800 */
+  }
+  

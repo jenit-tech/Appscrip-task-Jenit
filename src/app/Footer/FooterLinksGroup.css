@@ -1,0 +1,24 @@
+/* FooterLinksGroup.css */
+.footer-links-group {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .footer-links-group-title {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: bold; /* Equivalent to font-bold */
+    text-transform: uppercase; /* Equivalent to uppercase */
+  }
+  
+  .footer-links-group-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem; /* Equivalent to mt-5 */
+    font-size: 1.125rem; /* Equivalent to text-lg */
+  }
+  
+  .footer-links-group-margin {
+    margin-top: 2.5rem; /* Equivalent to max-md:mt-10 */
+  }
+  

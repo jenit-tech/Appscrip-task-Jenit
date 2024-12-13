@@ -1,0 +1,117 @@
+/* General styles for the Header container */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Top bar styles */
+  .top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 72px;
+    width: 100%;
+    font-size: 12px;
+    color: #f43f5e; /* Tailwind rose-500 */
+    background-color: #000; /* Tailwind black */
+  }
+  
+  @media (max-width: 768px) {
+    .top-bar {
+      padding: 8px 20px;
+      max-width: 100%;
+    }
+  }
+  
+  /* Header main section styles */
+  .header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 80px;
+    width: 100%;
+    background-color: #fff; /* Tailwind white */
+    border-bottom: 1px solid #e5e5e5; /* Tailwind border-b-neutral-200 */
+  }
+  
+  .header-content {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1248px;
+    white-space: nowrap;
+  }
+  
+  .header-logo {
+    object-fit: contain;
+    flex-shrink: 0;
+    width: 36px;
+    aspect-ratio: 1;
+  }
+  
+  .header-title {
+    font-size: 2.25rem; /* Tailwind text-4xl */
+    font-weight: 800; /* Tailwind font-extrabold */
+    color: #000; /* Tailwind black */
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    font-size: 1rem; /* Tailwind text-base */
+    font-weight: 700; /* Tailwind font-bold */
+    color: #292524; /* Tailwind text-stone-800 */
+  }
+  
+  .header-icon {
+    object-fit: contain;
+    flex-shrink: 0;
+    width: 24px;
+    aspect-ratio: 1;
+  }
+  
+  /* Navigation items */
+  .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 64px;
+    font-size: 1.25rem; /* Tailwind text-xl */
+    font-weight: 700; /* Tailwind font-bold */
+    color: #292524; /* Tailwind text-stone-800 */
+  }
+  
+  @media (max-width: 768px) {
+    .header-main {
+      padding: 32px 20px;
+      max-width: 100%;
+    }
+    .nav-items {
+      margin-top: 40px;
+    }
+  }
+  
+  /* Navigation item size classes */
+  .nav-item-small {
+    width: 52px;
+  }
+  
+  .nav-item-medium {
+    width: 65px;
+  }
+  
+  .nav-item-large {
+    width: 79px;
+  }
+  
+  .nav-item-extra-large {
+    width: 119px;
+  }
+  

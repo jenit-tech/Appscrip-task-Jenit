@@ -1,0 +1,110 @@
+/* Footer.css */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 1.5rem;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .footer-main {
+    display: flex;
+    gap: 1.25rem;
+    max-width: 1207px;
+    margin-left: 1rem;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+  }
+  
+  .footer-column-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+    width: 43%;
+  }
+  
+  .footer-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3rem;
+    font-size: 1.125rem;
+  }
+  
+  .footer-form input {
+    flex-grow: 1;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border: none;
+    min-height: 47px;
+  }
+  
+  .footer-form button {
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: black;
+    border: 1px solid white;
+    min-height: 48px;
+    color: white;
+    border-radius: 8px;
+    opacity: 0.3;
+    padding: 0.5rem;
+  }
+  
+  .footer-divider {
+    margin-top: 3rem;
+    height: 1px;
+    width: 1248px;
+    border: 1px solid white;
+  }
+  
+  .footer-links-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+  
+  .footer-links-group-column {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .footer-social-icon {
+    object-fit: contain;
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .footer-payment-methods {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .footer-payment-method {
+    object-fit: contain;
+    width: 3.5rem;
+    aspect-ratio: 1.6;
+    flex-shrink: 0;
+    border-radius: 0;
+  }
+  

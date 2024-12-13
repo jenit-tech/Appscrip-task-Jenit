@@ -1,0 +1,8 @@
+/* Divider.css */
+.divider {
+    margin-top: 1.5rem; /* mt-6 */
+    width: 100%;
+    border: solid 1px #d1d5db; /* border-neutral-200 */
+    min-height: 1px;
+  }
+  

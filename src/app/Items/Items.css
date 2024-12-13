@@ -1,0 +1,5 @@
+.items-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}

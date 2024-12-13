@@ -1,0 +1,17 @@
+.product-row {
+    width: 100%;
+    max-width: 100%; /* max-md:max-w-full */
+  }
+  
+  .product-row-content {
+    display: flex;
+    gap: 1.25rem; /* gap-5 equivalent */
+    flex-direction: row;
+  }
+  
+  @media (max-width: 768px) {
+    .product-row-content {
+      flex-direction: column; /* max-md:flex-col */
+    }
+  }
+  

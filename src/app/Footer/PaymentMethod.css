@@ -1,0 +1,9 @@
+/* PaymentMethod.css */
+.payment-method {
+    object-fit: contain;
+    width: 3.5rem; /* Equivalent to w-14 */
+    aspect-ratio: 1.6; /* Equivalent to aspect-[1.6] */
+    flex-shrink: 0; /* Equivalent to shrink-0 */
+    border-radius: 0; /* Equivalent to rounded-none */
+  }
+  
